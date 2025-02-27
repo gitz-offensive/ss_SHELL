@@ -1,5 +1,7 @@
 // Password Strength Checker in JavaScript
 
+const prompt = require("prompt-sync")();
+
 function checkPasswordStrength(password) {
     let score = 0;
 
@@ -33,4 +35,4 @@ function checkPasswordStrength(password) {
 
 // Read user input
 const password = prompt("Enter a password to check its strength:");
-alert(checkPasswordStrength(password));
+console.log(checkPasswordStrength(password));

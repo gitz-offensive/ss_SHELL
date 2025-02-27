@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 echo  -e "<------THE INTEGRITY TOOL------>"
 
+# Author: M. Gitau  for GitOffensive
 # Usage: ./verify_file.sh <file_path> <known_hash> <hash_type>
 
 if [ "$#" -ne 3 ]; then
